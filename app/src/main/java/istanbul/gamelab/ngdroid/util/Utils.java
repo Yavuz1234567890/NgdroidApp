@@ -158,6 +158,25 @@ public class Utils {
         return Locale.getDefault().getCountry();
     }
 
+    /**
+     * To var funcs
+    */
+
+    public static String toStr(int var){
+        return String.valueOf(var);
+    }
+
+    public static String toStr(byte var){
+        return String.valueOf(var);
+    }
+
+    public static String toStr(float var){
+        return String.valueOf(var);
+    }
+
+    public static String toStr(long var){
+        return String.valueOf(var);
+    }
 
     /**
      * Splits a string using the given delimiter and puts the tokens into a vector.
